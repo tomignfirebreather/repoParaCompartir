@@ -1,0 +1,1 @@
+1. Investigar como mostrar un archivo de texto en una pagina web

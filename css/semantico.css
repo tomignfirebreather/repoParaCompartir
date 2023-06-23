@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+/*
+selector{
+    propiedad1: valor;
+    propiedad2: valor;
+}
+*/
+
+/* selectores globales / tags */
+h2 {
+    color:#F44336;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* selector de clase (class) */
+/* puede repetirse o reutilizarse */
+.seccion {
+    background-color: beige;
+}
+
+/* selector de identificador (id) */
+/* no se recomienda repetirlo o reutilizarlo. Tendria que ser unico */
+#miParrafo {
+    color:darkblue;
+}
+
+.miFont {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bolder;
+}

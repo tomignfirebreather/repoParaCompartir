@@ -1,0 +1,112 @@
+<!-- ALT + SHIFT + A = Crea un espacio para los comentarios en el código -->
+<!-- !DOCTYPE = indica el DTD (Document Type Definition), es decir el tipo de documento que viene a continuación -->
+<!DOCTYPE html>
+<!-- html: Es la etiqueta principal de la pagina web - root: raiz del archivo -->
+<html lang="en">
+<!-- Etiqueta de cabecera de la pagina web: le brinda info al navegador -->
+<head>
+    <!-- Tipo de caracteres de la pagina -->
+    <meta charset="UTF-8">
+    <!-- Microsoft: compatibilidad de navegadores de la empresa -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Info para responsive: adaptacion a la pantalla del usuario -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Titulo de la pestaña del navegador -->
+    <title>Document</title>
+    <!-- Se declaran los estilos que queremos darle a determinadas etiquetas de la pagina web -->
+    <style>
+        body{
+            color:black;
+        }
+        h2{
+            color:#F44336;
+        }
+    </style>
+
+    <!-- SEO - MK - DATA -->
+</head>
+<!-- Etiqueta que representa el cuerpo de la pagina web -->
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <!-- a = etiqueta ancla que se utiliza para crear rutas relativas o absolutas. Se puede agregar como etiqueta hija dentro de otras etiquetas -->
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <!-- href = parametro en donde se coloca la ruta relativa o absoluta -->
+                    <a href="./pages/semantico.html">Semantico</a>
+                </li>
+                <li>
+                    <a href="./pages/ventanas.html">Ventanas</a>
+                </li>
+                <li>
+                    <!-- target="_blank" parametro para que me abra la ruta absoluta o relativa en otra pestaña -->
+                    <a href="https://www.educacionit.com/" target="_blank">
+                        Educacion IT
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Etiqueta en linea -->
+    <hr>
+    <!-- Estilos de CSS in line -->
+    <!-- Regla de CSS: 1. un selector - 2. asignamos la propiedad y el valor que queremos -->
+    <h1 style="color:darkblue;" lang="en">
+        Contenido de la etiqueta de titulo de nivel 1 - Hay 6 niveles de etiquetas
+    </h1>
+    <p>
+        Lorem ipsum dolor, sit amet <a href="./pages/semantico.html#tercerArticulo">MESSI</a> consectetur adipisicing elit. Nobis saepe blanditiis cum iste? Maxime temporibus expedita quibusdam quas. Ab optio repellat vel debitis at itaque sequi illo doloremque? A, eaque.
+    </p>
+    <br>
+    <p>
+        <!-- <strong></strong> destaca el texto para los motores de busqueda, es opcional que además lo destaque en negrita -->
+        <!-- <b></b> remarca el texto en negrita pero sin influir como palabra destacada para los motores de busqueda (cumple solo funcion estetica)-(No se usa, desde W3C recomiendan que si solo se va modificar esteticamente se lo haga desde CSS) -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, omnis dolores? Id quia architecto <strong>voluptatem consequuntur</strong> ea neque magni, vero, <b>repellendus</b> dolorum eius quasi soluta sunt! Quia mollitia tempore repellendus.
+    </p>
+    <br>
+    <p>
+        <!-- <em></em> al igual que <strong></strong> destaca el texto para los motores de busqueda, es opcional que además lo destaque en itálica -->
+        <!-- <i></i> remarca el texto en itálica pero sin influir como palabra destacada para los motores de busqueda (cumple solo funcion estetica)-(No se usa, desde W3C recomiendan que si solo se va modificar esteticamente se lo haga desde CSS) -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aspernatur eius a <em>vero inventore fugit</em>. Pariatur expedita rem sapiente ipsa <i>velit quas dolor</i> repellat, deserunt eum corrupti nostrum autem quam.
+    </p>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+    <hr>
+    <!-- Divisor - sirve para crear secciones o agrupar contenidos -->
+    <div>
+        <button>Guardar Datos</button>
+    </div>
+    <!-- Boton -->
+    <button>Limpiar Forulario</button>
+    <p>Contenido que mostramos al usuario</p>
+    <p>
+        <!-- Lorem: Me genera un texto generico  -->
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, eos minima suscipit voluptates amet repellendus dolorem sapiente illum reprehenderit est, nihil eligendi tempore nesciunt minus totam obcaecati et in alias.
+    </p>
+    <hr>
+    <h2>Listas en HTML</h2>
+
+    <!-- Listas ordenadas y desordenadas -->
+    <!-- Lista ordenada -->
+    <ol>
+        <li>Item de lista ordenada</li>
+        <li>Item de lista ordenada</li>
+        <li>Cosas para hacer:</li>
+        <br>
+        <!-- Listas anidadas: podemos anidar listas ordenadas y desordenadas a nuestro antojo -->
+            <!-- Lista desordenada -->
+            <ul>
+                <li>Comprar azucar</li>
+                <li>Jugar</li>
+                <li>Dormir</li>
+            </ul>
+    </ol>
+</body>
+</html>
